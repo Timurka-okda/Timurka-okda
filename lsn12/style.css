@@ -1,0 +1,14 @@
+a{
+      text-decoration:none;
+}
+a:hover { 
+    text-decoration: underline;
+    color: rgba(43, 226, 98, 0.74);
+}
+li:first-child {
+    color: #1c4949;
+    font-weight: bold;
+}
+li:nth-child(even){
+    font-weight: bold;
+}

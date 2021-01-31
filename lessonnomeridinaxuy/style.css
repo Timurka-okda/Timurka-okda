@@ -1,0 +1,28 @@
+.main {
+    display:flex;
+    box-sizing: border-box;
+}
+
+.cap{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #4568DC, #B06AB3) ;
+}
+.irondude{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #e52d27, #b31217);
+}
+.widow{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #000, #61045f);
+}
+.spider{
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    background: linear-gradient(to top, #e52d27, #000);

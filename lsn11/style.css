@@ -1,0 +1,13 @@
+.sumbit{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 2em;
+    color: greenyellow;
+    }
+
+.guska:hover{
+   color: blueviolet; 
+}
+.guska{
+    color: rgb(9, 54, 80);
+}

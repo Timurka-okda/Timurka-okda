@@ -1,0 +1,10 @@
+a{
+      text-decoration:none;
+}
+a:hover { 
+    text-decoration: underline;
+    color: rgba(43, 226, 98, 0.74);
+}
+a:first-child{
+    color: rgb(28, 73, 73);
+}

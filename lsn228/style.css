@@ -1,0 +1,42 @@
+.main {
+  width: 100%;
+}
+.submain {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+}
+
+.block {
+  width: 25%;
+  height: 300px;
+  border: 2px solid blueviolet;
+  float: left;
+  display: inline;
+  margin: 10px;
+}
+@media (min-width: 761px) and (max-width: 1199px) {
+  .block {
+    width: 40%;
+  }
+
+  .submain {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 150px) and (max-width: 760px) {
+  .block {
+    width: 80%;
+  }
+
+  .submain {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+uygbyutg
